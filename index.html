@@ -202,24 +202,24 @@
   <div class="card">
     <div class="input-grid">
       <div class="field">
-        <label>貸款金額</label>
-        <div class="input-wrap">
-          <input type="number" id="principal" placeholder="0" step="1" inputmode="numeric">
-          <span class="input-unit">萬元</span>
+        <label style="text-align: center; display: block;">貸款金額</label>
+  <div class="input-wrap">
+    <input type="number" id="principal" placeholder="0" step="1" inputmode="numeric">
+    <span class="input-unit">萬元</span>
         </div>
       </div>
       <div class="field">
-        <label>還款期數</label>
-        <div class="input-wrap">
-          <input type="number" id="periods" placeholder="0" step="1" inputmode="numeric">
-          <span class="input-unit">期</span>
+        <label style="text-align: center; display: block;">還款期數</label>
+  <div class="input-wrap">
+    <input type="number" id="periods" placeholder="0" step="1" inputmode="numeric">
+    <span class="input-unit">期</span>
         </div>
       </div>
       <div class="field">
-        <label>年利率</label>
-        <div class="input-wrap">
-          <input type="number" id="rate" placeholder="0" step="0.01" inputmode="decimal">
-          <span class="input-unit">%</span>
+        <label style="text-align: center; display: block;">年利率</label>
+  <div class="input-wrap">
+    <input type="number" id="rate" placeholder="0" step="0.01" inputmode="decimal">
+    <span class="input-unit">%</span>
         </div>
       </div>
     </div>
@@ -227,11 +227,11 @@
 
   <div class="summary">
     <div class="sum-box">
-      <div class="sum-label">每月支付金</div>
+      <div class="sum-label">每月還款</div>
       <div class="sum-value" id="monthly">—<span>元</span></div>
     </div>
     <div class="sum-box">
-      <div class="sum-label">總利息支出</div>
+      <div class="sum-label">總計利息</div>
       <div class="sum-value" id="total_interest">—<span>元</span></div>
     </div>
   </div>
@@ -363,8 +363,5 @@ calculate();
 <div class="footer">
   © 2025-2030 [MS.AKA] · Licensed under MIT<br>
   SAKURA PRECISION CALCULATOR<br>
-  <div class="note">
-    *本試算按銀行本息均攤計算*<br>
-    *試算結果僅供參考，實際以銀行為準*
   </div>
 </div>
